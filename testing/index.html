@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Sparty Warrior</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" type="text/css" href="sparty.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Distribution.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+  
+
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+    </div>
+
+    <div class="container">
+      <button "add-to-cart" onclick="window.location.href='https://lafinca-studio.itch.io/sparty-warrior';">
+        <i  href="https://lafinca-studio.itch.io/sparty-warrior" class="fa fa-cart-plus"></i>Visit LaFinca Studio website game page!
+      </button>
+        <button class="red" onclick="window.location.href='https://br.pinterest.com/lafincastudio/';">
+          <i class="fa fa-trash"></i>Get inspiration on LaFinca Studio Pinterest
+        </button>
+    </div>
+  </body>
+</html>
