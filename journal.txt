@@ -1,0 +1,8 @@
+101|1231|12/08/21|Bus Fare|-200|
+102|1242|12/02/21|Salary Credit|27000|
+102|1247|19/03/21|Auto Expense|-1200|
+103|1251|08/04/21|Checking Acct|4000|
+104|1235|09/07/21|Monthly expense|-4000|
+104|1253|16/04/21|Rent for April|-10000|
+104|1288|21/02/21|Office Expense|-500|
+105|1291|14/08/21|Lottery Credit|3000|
